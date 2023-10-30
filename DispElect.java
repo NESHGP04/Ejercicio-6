@@ -5,5 +5,4 @@ CLASS interface */
 public interface DispElect{
     public void encender();
     public void apagar();
-    //public void estado(); //REVISAR
 }

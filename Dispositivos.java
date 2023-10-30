@@ -26,6 +26,10 @@ public abstract class Dispositivos {
         return this.modelo;
     }
 
+    public String getMarca(){
+        return this.marca;
+    }
+
     public int getEstado(){
         return this.estado_opc;
     }
@@ -33,4 +37,9 @@ public abstract class Dispositivos {
     public String getTipo(){
         return this.tipo;
     }
+
+    public String toString(){
+        return "--ID: " + this.getId() + " --ESTADO: " + this.estado_opc + " --" + this.getModelo() + this.getMarca();
+    }
+
 }
